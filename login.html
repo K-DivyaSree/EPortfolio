@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" href="LoginPage/login.css">
+</head>
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form>
+            <h2>Sign in</h2>
+            <div class="inputBox">
+                <input type="email" id="username" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" id="password" required>
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="LoginPage/reset.html">Forgot Password</a>
+                <a href="signup.html">Signup</a>
+            </div>
+            <input type="submit" value="Login" onclick="redirectToDashboard()">        </form>
+    </div>
+    <script src="LoginPage/script.js"></script>
+    <script>
+        
+        function redirectToDashboard() {
+            let username=document.getElementById("username").value;
+            let password=document.getElementById("password").value;
+            if(!username){
+               return alert("please enter email Id")
+            }
+            if(!password){
+               return alert("please enter password")
+            }
+            let data =localStorage.getItem(username);
+            if(data){
+            data=JSON.parse(data);
+            if(data.password == password){
+                window.location.href = "interface.html"; // Change "redirected_page.html" to your desired destination URL
+            } else {
+               return alert("please enter correct password");
+            }
+            } else {
+               return alert("please enter correct email Id");
+            }
+        }
+    </script>
+</body>
+</html>
