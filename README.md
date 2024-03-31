@@ -24,7 +24,9 @@ In today's competitive job market, having a standout portfolio is essential for 
 We are continuously working to enhance the E-Portfolio Website and plan to implement the following enhancements in the future:
 
 **Backend Integration with MongoDB:** By integrating MongoDB in the backend, we aim to enhance data management capabilities, enabling greater scalability, flexibility, and personalization.
+
 **Editable Content:** Users will have the ability to directly edit and customize their content on the website, allowing for greater flexibility and personalization.
+
 **Real-Time Updates:** Edits made by users will reflect in real-time and seamlessly integrate into the main website of their portfolio, ensuring that their online presence remains up-to-date and relevant.
 
 
