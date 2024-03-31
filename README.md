@@ -6,15 +6,20 @@ Welcome to the E-Portfolio Website repository! This project is designed to help 
 The E-Portfolio Website is a mini-project created using HTML, CSS, and JavaScript, with seamless integration of the Getforms.io API for contact form functionality. It offers a user-friendly interface with five main sections:
 
 **Home:** A welcoming introduction to the website, featuring the option to download the user's CV.
+
 **About:** Detailed information about the user's educational and professional background, along with technical expertise.
+
 **Expertise:** A section dedicated to showcasing the user's skills and areas of expertise.
+
 **Work Showcase:** A showcase of the user's latest projects.
+
 **Contact:** A contact form through which visitors can connect directly with the user via email.
 
 
 ## Features
 
 **Live Style Switcher:** Users can change the color theme of the website according to their preferences, with five available colors.
+
 **Dark and Light Mode:** The website offers both dark and light mode options for improved readability and user experience.
 
 ## Why E-Portfolio Website?
