@@ -30,11 +30,11 @@ We are continuously working to enhance the E-Portfolio Website and plan to imple
 
 ## Contributors
 
-  **Divyasree-K** -- Team Lead and Developer
-  **Mohammad Mansoor-K** -- Developer
-  **Muheet UR Rehman** -- Developer
-  **Banu Bee-S** -- Developer
-  **ChandraLekha-C** -- Developer
+1. **Divyasree-K** -- Team Lead and Developer
+2. **Mohammad Mansoor-K** -- Developer
+3. **Muheet UR Rehman** -- Developer
+4. **Banu Bee-S** -- Developer
+5. **ChandraLekha-C** -- Developer
 
 
 Contributions are welcome!
