@@ -35,14 +35,5 @@ We are continuously working to enhance the E-Portfolio Website and plan to imple
 **Real-Time Updates:** Edits made by users will reflect in real-time and seamlessly integrate into the main website of their portfolio, ensuring that their online presence remains up-to-date and relevant.
 
 
-## Contributors
-
-1. **Divyasree-K** -- Team Lead and Developer
-2. **Mohammad Mansoor-K** -- Developer
-3. **Muheet UR Rehman** -- Developer
-4. **Banu Bee-S** -- Developer
-5. **ChandraLekha-C** -- Developer
-
-
 Contributions are welcome!
 Happy Coding !!
