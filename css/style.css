@@ -580,20 +580,23 @@ h3.my-profession
 }
 .service .service-item
 {
-    margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+    margin-bottom: 30px;
 }
-.service .service-item .service-item-inner
+.service .service-item-inner
 {
-    background-color: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
+    border: 6px solid var(--bg-black-100);
     border-radius: 10px;
-    padding: 30px 15px;
-    text-align: center;
-    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
 }
-.service .service-item .service-item-inner:hover
+.service .service-item-inner .portfolio-img img
+{
+    width: 100%;
+    display: block;
+}
+/* .service .service-item .service-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
@@ -636,7 +639,7 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
-}
+} */
 /* Portfolio */
 .portfolio .container
 {
