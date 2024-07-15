@@ -578,58 +578,22 @@ h3.my-profession
 {
     padding-bottom: 40px;
 }
-.service .service-heading
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-.service .service-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
 .service .service-item
 {
+    margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    margin-bottom: 30px;
 }
-.service .service-item-inner
+.service .service-item .service-item-inner
 {
-    border: 6px solid var(--bg-black-100);
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
     border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
-.service .service-item-inner .portfolio-img img
-{
-    width: 100%;
-    display: block;
-}
-/* .service .container
-{
-    padding-bottom: 40px;
-}
-.service .service-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-}
-.service .service-item-inner
-{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-}
-.service .service-item-inner .portfolio-img img
-{
-    width: 100%;
-    display: block;
-} */
-/* .service .service-item .service-item-inner:hover
+.service .service-item .service-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
@@ -672,7 +636,7 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
-} */
+}
 /* Portfolio */
 .portfolio .container
 {
