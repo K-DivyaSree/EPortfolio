@@ -382,7 +382,6 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width:100%;
-    padding-left: 30px;
 }
 .about .about-content .about-text
 {
@@ -409,10 +408,9 @@ h3.my-profession
 }
 .about .about-content .personal-info
 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 60%;
+    max-width: 60%;
     margin-top: 40px;
-    padding-left: 0;
 }
 .about .about-content .personal-info .info-item
 {
@@ -420,7 +418,6 @@ h3.my-profession
     max-width: 50%;
     display: flex; /* Use flexbox to keep the content in a single line */
     flex-wrap: wrap; /* Allows items to wrap within the flex container if needed */
-    justify-content: space-between;
 }
 .about .about-content .personal-info .info-item p
 {
