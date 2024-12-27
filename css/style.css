@@ -416,6 +416,8 @@ h3.my-profession
 {
     flex: 0 0 50%;
     max-width: 50%;
+    display: flex; /* Use flexbox to keep the content in a single line */
+    flex-wrap: wrap; /* Allows items to wrap within the flex container if needed */
 }
 .about .about-content .personal-info .info-item p
 {
@@ -424,6 +426,11 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
+    display: flex;
+    justify-content: space-between; /* Ensures space between the two items */
+    align-items: center;
+    margin: 0;
+    flex-wrap: nowrap; /* Ensures items inside do not wrap */
 }
 .about .about-content .personal-info .info-item p span
 {
@@ -431,6 +438,8 @@ h3.my-profession
     color: var(--text-black-700);
     margin-left: 4px;
     display: inline-block;
+     /* Adjusting for proper space between values */
+    margin-right: 20px; /* Optional: you can adjust this as per your design */
 }
 .about .about-content .personal-info .buttons
 {
