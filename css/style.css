@@ -697,6 +697,26 @@ h3.my-profession
 {
     transform: scale(1.05);
 }
+
+@media (prefers-color-scheme: dark) {
+    /* Change text color in dark mode */
+    .portfolio .portfolio-heading h2 {
+        color: #fff; /* White text in dark mode */
+    }
+    
+    .portfolio .portfolio-item-inner {
+        border: 6px solid var(--bg-black-400); /* Lighter border in dark mode */
+    }
+
+    .portfolio .portfolio-item-inner .portfolio-img img {
+        opacity: 0.8; /* Slightly dim the images in dark mode */
+    }
+
+    .project-view {
+        background: var(--skin-color-dark); /* Darker background for project view button */
+        color: white; /* Ensure white text on button in dark mode */
+    }
+}
 /* Contact */
 .contact-title
 {
